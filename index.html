@@ -9,21 +9,34 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.2.0/highlight.min.js"></script>
     <script>hljs.highlightAll();</script>
     <link href="style.css" rel="stylesheet" type="text/css"/>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
 </head>
 <body>
     <div class = "container">
         <header>
-            <nav class = "navigation">
-                <ul>
-                    <li><a class = "menu" href = "#Experience">Experience</a></li>
-                    <li><a class = "menu" href = "#Example">Example</a></li>
-                    <li><a class = "menu" href = "#Education">Education</a></li>
-                    <li><a class = "menu" href = "#Algoritm">Algoritm</a></li>
-                    <li><a class = "menu" href = "#Qualities">Qualities</a></li>
-                    <li><a class = "menu" href = "#Languages">Languages</a></li>
-                </ul>
-            </nav>
-            <h1 class = "cv-h1">CV beginner frontend developer</h1>
+            <div class="container">
+                <div class="header-body">
+                    <div class="header-burger">
+                        <span></span>
+                    </div>
+                    <div class="navigation-container">
+                        <nav class = "navigation">
+                            <ul>
+                                <li><a class = "menu" href = "#Experience">Experience</a></li>
+                                <li><a class = "menu" href = "#Example">Example</a></li>
+                                <li><a class = "menu" href = "#Education">Education</a></li>
+                                <li><a class = "menu" href = "#Algoritm">Algoritm</a></li>
+                                <li><a class = "menu" href = "#Qualities">Qualities</a></li>
+                                <li><a class = "menu" href = "#Languages">Languages</a></li>
+                            </ul>
+                        </nav>
+                    </div>
+                    <h1 class = "cv-h1">CV beginner frontend developer</h1>
+                </div>
+            </div>
         </header>
         <main class = " main">
             <aside class = "left-block aside-color">
@@ -198,5 +211,6 @@ var runLengthEncoding = function(str){
             </div>
         </footer>
     </div>
+    <script src="main.js"></script>
 </body>
 </html>
